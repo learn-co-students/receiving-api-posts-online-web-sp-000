@@ -38,6 +38,13 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'annotate'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
+  gem 'pry-byebug'
+  gem 'pry-nav'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'selenium-webdriver'
 end
 
 group :development do
